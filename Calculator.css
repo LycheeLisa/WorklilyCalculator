@@ -30,7 +30,7 @@
     color: white;
     text-align: center;
 }
-/** Button Detail **/
+/** Button and drop down Detail **/
 .totalamount{
     background-color: #ffa526;
     width: 200px;
@@ -49,6 +49,9 @@
 }
 .dropdown-menu {
     left: 10%;
+}
+li{
+    cursor: pointer;
 }
 /**General CSS for Calculator**/
 .smaller-container{
