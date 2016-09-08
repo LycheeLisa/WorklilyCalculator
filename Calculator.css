@@ -1,0 +1,77 @@
+/**Font CSS**/
+@font-face {
+    font-family: "Geomanist Regular";
+    src: url('fonts/Geomanist-Regular.otf')
+}
+@font-face{
+    font-family:"Geomanist Bold";
+    src: url('fonts/Geomanist-Bold.otf');
+}
+.headerfont{
+    font-family: "Geomanist Regular", Arial, sans-serif;
+    font-size: 10vh;
+    text-align: center;
+}
+.menufont{
+    font-family: "Geomanist Regular", Arial, sans-serif;
+}
+.totalfont{
+    font-family: "Geomanist Bold", Arial, sans-serif;
+    font-size: 20px;
+    padding-top: 2vh;
+    padding-bottom:0;
+}
+.totalsubfont{
+    font-family: "Geomanist Regular", Arial, sans-serif;
+    font-size: 14px;
+    padding-top: 0;
+}
+.totalamount p{
+    color: white;
+    text-align: center;
+}
+/** Button Detail **/
+.totalamount{
+    background-color: #ffa526;
+    width: 200px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6px;
+}
+.btn-primary{
+    width: 200px;
+    background-color: #2962FF;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom:30px;
+}
+.dropdown-menu {
+    left: 10%;
+}
+/**General CSS for Calculator**/
+.smaller-container{
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.reduced-p{
+    margin: 0;
+}
+/**Mobile CSS**/
+@media screen and (max-width: 700px){
+    .btn-primary{
+        width:100%;
+    }
+    .dropdown-menu{
+        left: 0;
+        width: 100%;
+    }
+    .headerfont{
+        font-size: 5vh;
+    }
+    .container{
+        width:100%;
+    }
+}
