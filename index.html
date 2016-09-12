@@ -53,7 +53,7 @@
 <header class="company-hero">
     <div class="container">
         <div class="intro-text">
-            <h1 class="intro-lead-in">My freelance work funds my travel expeditions.</h1>
+            <h1 class="intro-lead-in">My freelance work funds my travel expeditions</h1>
             <div class="intro-heading">What could you earn as a freelancer?</div>
         </div>
     </div>
@@ -62,32 +62,35 @@
 <div class="container smaller-container menufont">
     <div class="row">
         <div class="col-md-4">
+            <p class="instructions">I am experienced in:</p>
             <div class="dropdown">
                 <button class="btn btn-primary dropdown-toggle" id="menu1" type="button" data-toggle="dropdown">Select type of work
                     <span class="caret"></span></button>
                 <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                    <li role="presentation"><a role="menuitem" class="menuitem jobtype" tabindex="-1" value="75">Security</a></li>
-                    <li role="presentation"><a role="menuitem" class="menuitem jobtype" tabindex="-1" value="60">IT & Networking</a></li>
-                    <li role="presentation"><a role="menuitem" class="menuitem jobtype" tabindex="-1" value="50">Development</a></li>
-                    <li role="presentation"><a role="menuitem" class="menuitem jobtype" tabindex="-1" value="70">Analytics</a></li>
-                    <li role="presentation"><a role="menuitem" class="menuitem jobtype" tabindex="-1" value="40">Sales & Marketing</a></li>
-                    <li role="presentation"><a role="menuitem" class="menuitem jobtype" tabindex="-1" value="50">Internet of Things</a></li>
+                    <li role="presentation"><a role="menuitem" class="menuitem jobtype" tabindex="-1" id="security" value="27.4">Security</a></li>
+                    <li role="presentation"><a role="menuitem" class="menuitem jobtype" tabindex="-1" id = "networking" value="24.8">IT & Networking</a></li>
+                    <li role="presentation"><a role="menuitem" class="menuitem jobtype" tabindex="-1" id = "developer" value="30.45">Development</a></li>
+                    <li role="presentation"><a role="menuitem" class="menuitem jobtype" tabindex="-1" id = "analytics" value="47">Analytics</a></li>
+                    <li role="presentation"><a role="menuitem" class="menuitem jobtype" tabindex="-1" id = "sales" value="26.1">Sales & Marketing</a></li>
+                    <li role="presentation"><a role="menuitem" class="menuitem jobtype" tabindex="-1" id = "IoT" value="26.1">Internet of Things</a></li>
                 </ul>
             </div>
         </div>
         <div class="col-md-4">
+            <p class="instructions">My skill level is:</p>
             <div class="dropdown">
                 <button class="btn btn-primary dropdown-toggle" id="menu2" type="button" data-toggle="dropdown">Rate your expertise
                     <span class="caret"></span></button>
                 <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                    <li role="presentation"><a role="menuitem" class="menuitem skill" tabindex="-1" value="1">Novice</a></li>
-                    <li role="presentation"><a role="menuitem" class="menuitem skill" tabindex="-1" value="1.25">Intermediate</a></li>
-                    <li role="presentation"><a role="menuitem" class="menuitem skill" tabindex="-1" value="2">Advanced</a></li>
-                    <li role="presentation"><a role="menuitem" class="menuitem skill" tabindex="-1" value="2.5">Expert</a></li>
+                    <li role="presentation"><a role="menuitem" class="menuitem skill" tabindex="-1" id = "novice">Novice</a></li>
+                    <li role="presentation"><a role="menuitem" class="menuitem skill" tabindex="-1" id = "intermediate">Intermediate</a></li>
+                    <li role="presentation"><a role="menuitem" class="menuitem skill" tabindex="-1" id = "advanced">Advanced</a></li>
+                    <li role="presentation"><a role="menuitem" class="menuitem skill" tabindex="-1" id = "expert">Expert</a></li>
                 </ul>
             </div>
         </div>
         <div class="col-md-4">
+            <p class="instructions">I want to work:</p>
             <div class="dropdown">
                 <button class="btn btn-primary dropdown-toggle" id="menu3" type="button" data-toggle="dropdown">How many hours?
                     <span class="caret"></span></button>
@@ -106,7 +109,7 @@
         </div>
     </div>
     <div class="row">
-        <div class="totalamount"><p class="totalfont reduced-p" id="total">$0</p><p class="totalsubfont reduced-p">weekly average</p></div>
+            <div class="totalamount"><p class="totalfont">You could make: <em class="reduced-p" id="total">$0</em> weekly</p></div>
     </div>
 </div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

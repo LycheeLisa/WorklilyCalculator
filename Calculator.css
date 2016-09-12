@@ -17,27 +17,31 @@
 }
 .totalfont{
     font-family: "Geomanist Bold", Arial, sans-serif;
-    font-size: 20px;
+    font-size: 35px;
     padding-top: 2vh;
     padding-bottom:0;
 }
 .totalsubfont{
     font-family: "Geomanist Regular", Arial, sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     padding-top: 0;
 }
 .totalamount p{
-    color: white;
+    color: #2962FF;
     text-align: center;
+}
+.instructions{
+    text-align: center;
+}
+em{
+    font-style: normal;
 }
 /** Button and drop down Detail **/
 .totalamount{
-    background-color: #ffa526;
-    width: 200px;
+    width: 500px;
     height: 80px;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 6px;
 }
 .btn-primary{
     width: 200px;
@@ -48,14 +52,19 @@
     margin-bottom:30px;
 }
 .dropdown-menu {
-    left: 10%;
+    width: 200px;
+}
+.dropdown{
+    width:200px;
+    margin-left: auto;
+    margin-right:auto;
 }
 li{
     cursor: pointer;
 }
 /**General CSS for Calculator**/
 .smaller-container{
-    width: 50%;
+    width: 60vw;
     margin-top: 20px;
     margin-bottom: 40px;
 }
@@ -76,5 +85,11 @@ li{
     }
     .container{
         width:100%;
+    }
+    .totalamount{
+        width: 300px;
+    }
+    .totalfont{
+        font-size: 30px;
     }
 }
