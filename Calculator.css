@@ -17,8 +17,7 @@
 }
 .totalfont{
     font-family: "Geomanist Bold", Arial, sans-serif;
-    font-size: 35px;
-    padding-top: 2vh;
+    font-size: 25px;
     padding-bottom:0;
 }
 .totalsubfont{
@@ -39,7 +38,6 @@ em{
 /** Button and drop down Detail **/
 .totalamount{
     width: 500px;
-    height: 80px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -50,6 +48,9 @@ em{
     margin-right: auto;
     display: block;
     margin-bottom:30px;
+}
+.btn{
+    font-weight: 700;
 }
 .dropdown-menu {
     width: 200px;
@@ -66,10 +67,25 @@ li{
 .smaller-container{
     width: 60vw;
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 .reduced-p{
     margin: 0;
+}
+.centered{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 164px;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.row{
+    margin-bottom: 15px;
+}
+@media screen and (min-width: 992px){
+    .col-md-4{
+        height: 80px;
+    }
 }
 /**Mobile CSS**/
 @media screen and (max-width: 700px){
