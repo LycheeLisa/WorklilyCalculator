@@ -47,6 +47,7 @@ em{
     margin-right: auto;
     display: block;
     margin-bottom:30px;
+    white-space: normal;
 }
 .btn{
     font-weight: 700;
