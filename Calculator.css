@@ -87,6 +87,9 @@ li{
     width: 164px;
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+footer .row{
+    margin-bottom: 0;
+}
 .row{
     margin-bottom: 15px;
 }
