@@ -610,16 +610,17 @@ $(document).ready(function() {
         }
     });
 //Make the total earned change dynamically with changes in drop down menu selection
+
 $(".jobtype").click(function () {
     jobtype = $(this).attr("value");
     $("#total").html("$" + (time * jobtype * skill).toFixed(0));
+});
 $(".skill").click(function () {
     $("#total").html("$" + (time * jobtype * skill).toFixed(0));
+});
 $(".hours").click(function () {
     time = $(this).attr("value");
     $("#total").html("$" + (time * jobtype * skill).toFixed(0));
-    });
-    });
     });
 });
 
