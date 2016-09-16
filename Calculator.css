@@ -37,12 +37,11 @@ em{
 }
 /** Button and drop down Detail **/
 .totalamount{
-    width: 500px;
     margin-left: auto;
     margin-right: auto;
 }
 .btn-primary{
-    width: 200px;
+    min-width: 200px;
     background-color: #2962FF;
     margin-left: auto;
     margin-right: auto;
@@ -54,10 +53,18 @@ em{
 }
 .dropdown-menu {
     width: 200px;
+    max-height: 150px;
+    overflow-y: scroll;
 }
 .dropdown{
-    width:200px;
     margin-left: auto;
+    margin-right:auto;
+}
+.dropdown-menu>li>a {
+    white-space: normal;
+}
+.dropup{
+    margin-left:auto;
     margin-right:auto;
 }
 li{
@@ -67,7 +74,7 @@ li{
 .smaller-container{
     width: 60vw;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .reduced-p{
     margin: 0;
@@ -82,9 +89,15 @@ li{
 .row{
     margin-bottom: 15px;
 }
-@media screen and (min-width: 992px){
+@media screen and (min-width: 700px){
     .col-md-4{
         height: 80px;
+    }
+    .dropdown {
+        width: 200px;
+    }
+    .dropup{
+        width: 200px;
     }
 }
 /**Mobile CSS**/
