@@ -9,8 +9,15 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!--CSS-->
+    <link href="http://158.85.108.139/css/main.css" rel="stylesheet">
+    <link href="http://158.85.108.139/css/availability.css" rel="stylesheet">
+    <link href="http://158.85.108.139/css/notifications.css" rel="stylesheet">
+    <link href="http://158.85.108.139/css/pages.css" rel="stylesheet">
+    <link href="http://158.85.108.139/css/worklily-splash.css" rel="stylesheet">
+    <link href="http://158.85.108.139/css/worklily-clean.css" rel="stylesheet">
     <link rel="stylesheet" href="Calculator.css">
-    <link rel="stylesheet" href="css/worklilycss.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -52,22 +59,28 @@
     </div>
     <!-- /.container-fluid -->
 </nav>
-<!-- Hero -->
-<header class="company-hero">
-    <div class="container">
-        <div class="intro-text">
-            <h1 class="intro-lead-in">My freelance work funds my travel expeditions</h1>
-            <div class="intro-heading">What could you earn as a freelancer?</div>
+<!-- Jumbotron -->
+<div id="page-content-wrapper">
+    <div class="jumbotron jumbotron-welcome-expert">
+        <div class="overlay"></div>
+        <div class="container">
+            <h1>Discover your earning potential</h1>
+            <p>Let us show you how </p>
+            </div>
         </div>
     </div>
-</header>
 <!-- Calculator -->
-<div class="container smaller-container menufont">
+<div class="container smaller-container">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <p class="calculatorheading">Select from the options below to find out how much you could earn, freelancing on Worklily</p>
+        </div>
+    </div>
     <div class="row">
         <div class="col-md-4">
-            <p class="instructions">I am a:</p>
+            <p class="text-center">I am a:</p>
             <div class="dropdown">
-                <button class="btn btn-primary dropdown-toggle" id="menu1" type="button" data-toggle="dropdown">Select type of work
+                <button class="btn btn-attention dropdown-toggle" id="menu1" type="button" data-toggle="dropdown">Select type of work
                     <span class="caret"></span></button>
                 <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
                     <li role="presentation"><a role="menuitem" class="menuitem jobtype" tabindex="-1" id="applicationarc" value="47.85" data-level="1,1.29,1.58,2.63">Application Architect</a></li>
@@ -108,9 +121,9 @@
             </div>
         </div>
         <div class="col-md-4">
-            <p class="instructions">My skill level is:</p>
+            <p class="text-center">My skill level is:</p>
             <div class="dropdown">
-                <button class="btn btn-primary dropdown-toggle" id="menu2" type="button" data-toggle="dropdown">Rate your expertise
+                <button class="btn btn-attention dropdown-toggle" id="menu2" type="button" data-toggle="dropdown">Rate your expertise
                     <span class="caret"></span></button>
                 <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
                     <li role="presentation"><a role="menuitem" tabindex="-1" id="novice" value='0'>Novice</a></li>
@@ -121,9 +134,9 @@
             </div>
         </div>
         <div class="col-md-4">
-            <p class="instructions">I want to work:</p>
+            <p class="text-center">I want to work:</p>
             <div class="dropdown">
-                <button class="btn btn-primary dropdown-toggle" id="menu3" type="button" data-toggle="dropdown">How many hours?
+                <button class="btn btn-attention dropdown-toggle" id="menu3" type="button" data-toggle="dropdown">How many hours?
                     <span class="caret"></span></button>
                 <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
                     <li role="presentation"><a role="menuitem" class="menuitem hours" tabindex="-1" value="5">1-5 weekly</a></li>
@@ -143,50 +156,39 @@
         <div class="totalamount"><p class="totalfont">Start earning <em class="reduced-p" id="total">$0</em> weekly</p></div>
     </div>
     <div class="row">
-        <div class="centered">
-        <a class="btn btn-default" href="http://worklily.com/experts">Sign up to freelance</a>
+       <div class="centered">
+            <a class="btn btn-default signup" href="http://worklily.com/experts">Sign up to Freelance</a>
         </div>
-    </div>
     </div>
 </div>
 <!-- Footer section -->
-<footer>
+<footer id="footer">
     <div class="container">
         <div class="row">
-            <div class="brand col-xs-6 col-md-2">
-                <a class="page-scroll" href="http://worklily.com/">
-
-                    <img class="navbar-brand-logo" src="http://worklily.com/img/brand_logo_white.svg?v=3.3.3" alt="Worklily" title="Worklily">
-
+            <div id="footer-brand" class="col-md-2">
+                <a class="page-scroll" href="http://158.85.108.139/">
+                    <img class="navbar-brand-logo" src="http://158.85.108.139/images/logo-lily-blue.svg" alt="Worklily" title="Worklily">
                 </a>
             </div>
-            <div class="footer-links col-md-8 hidden-xs">
-                <ul class="list-inline quicklinks">
-                    <li>&copy; 2016 Worklily</li>
-
-                    <li><a href="http://worklily.com/privacy">Privacy Policy</a></li>
-
+            <div id="footer-links" class="col-md-8">
+                <ul class="list-inline">
+                    <li>&copy; 2016 Worklily Ltd.</li>
+                    <li><a href="http://158.85.108.139/about">About</a></li>
+                    <li><a href="http://158.85.108.139/help">Help</a></li>
+                    <li><a href="http://158.85.108.139/contact">Contact</a></li>
+                    <li><a href="http://158.85.108.139/privacy">Privacy</a></li>
+                    <li><a href="http://158.85.108.139/terms">Terms</a></li>
+                    <li><a href="http://158.85.108.139/blog">Blog</a></li>
                 </ul>
             </div>
-            <div class="social col-xs-6 col-md-2">
-                <ul class="list-inline social-buttons">
-
-                    <li><a href="https://twitter.com/WorklilyTech"><i class="fa fa-twitter"></i></a></li>
-
-                    <li><a href="https://www.linkedin.com/company/worklily-com"><i class="fa fa-linkedin-square"></i></a></li>
-
-                </ul>
-            </div>
-            <div class="copyright col-xs-6 visible-xs">
-                <ul class="list-inline quicklinks">
-                    <li>&copy; 2016 Worklily</li>
-                </ul>
-            </div>
-            <div class="footer-links col-xs-6 visible-xs">
-                <ul class="list-inline quicklinks">
-
-                    <li><a href="http://worklily.com/privacy">Privacy Policy</a></li>
-
+            <div id="footer-social" class="col-md-2">
+                <ul class="list-inline">
+                    <li>
+                        <a href="https://twitter.com/WorklilyTech" target="_blank"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/company/worklily-com" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    </li>
                 </ul>
             </div>
         </div>

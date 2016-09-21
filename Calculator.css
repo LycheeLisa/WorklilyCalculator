@@ -12,16 +12,11 @@
     font-size: 10vh;
     text-align: center;
 }
-.menufont{
-    font-family: "Geomanist Regular", Arial, sans-serif;
-}
 .totalfont{
-    font-family: "Geomanist Bold", Arial, sans-serif;
     font-size: 25px;
     padding-bottom:0;
 }
 .totalsubfont{
-    font-family: "Geomanist Regular", Arial, sans-serif;
     font-size: 15px;
     padding-top: 0;
 }
@@ -29,8 +24,8 @@
     color: #2962FF;
     text-align: center;
 }
-.instructions{
-    text-align: center;
+.calculatorheading{
+ font-size: 20px;
 }
 em{
     font-style: normal;
@@ -40,14 +35,8 @@ em{
     margin-left: auto;
     margin-right: auto;
 }
-.btn-primary{
+.btn-attention{
     min-width: 200px;
-    background-color: #2962FF;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    margin-bottom:30px;
-    white-space: normal;
 }
 .btn{
     font-weight: 700;
@@ -71,11 +60,22 @@ em{
 li{
     cursor: pointer;
 }
+.btn-default:focus, .btn-default:hover {
+    outline: 0;
+    color: #093dcd;
+    background-color: white;
+}
 /**General CSS for Calculator**/
+.company-hero {
+    background-image: url(adventure.jpg);
+    width: 100%;
+}
+.col-md-4{
+    margin-bottom: 20px;
+}
+
 .smaller-container{
     width: 60vw;
-    margin-top: 20px;
-    margin-bottom: 30px;
 }
 .reduced-p{
     margin: 0;
@@ -106,7 +106,7 @@ footer .row{
 }
 /**Mobile CSS**/
 @media screen and (max-width: 700px){
-    .btn-primary{
+    .btn-attention{
         width:100%;
     }
     .dropdown-menu{
